@@ -1,0 +1,29 @@
+nav{
+    /* 横並び */
+    display: flex;
+    /* 横並びの中央 */
+    justify-content: center;
+    /* 枠の中でH方向中央 */
+    align-items: center;
+    height: 50px;
+    background-color: black;
+    /* gapはdisplay:flexやgridの時に使え、flexやgrid内のアイテムの間隔を調整できる */
+    gap: 20px;
+}
+
+
+nav a{
+    /* リンク下の線を消す */
+    text-decoration: none;
+    color: white;
+    /* 時間かけてホバーから色戻す */
+    transition: all 0.3s;
+}
+
+nav a:hover{
+    color: yellow;
+}
+
+nav a svg{
+    margin-right: 5px;
+}

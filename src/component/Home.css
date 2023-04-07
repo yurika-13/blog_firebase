@@ -1,0 +1,39 @@
+.postedContainer{
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    /* 縦方向に並べる */
+    flex-direction:column;
+    /* 縦方向中央 */
+    justify-content:center;
+    text-align: center;
+    height: 300px;
+    width: 400px;
+    gap: 10px;
+    padding: 0px 40px;
+    margin: 10px;
+    box-shadow: 0px 0px 15px -5px #777777;
+}
+
+.homePage{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 100px;
+    height: 90vh;
+}
+
+.nameAndDeleteButton button{
+    background-color: blue;
+    color: white;
+    border: none;
+    height: 30px;
+    box-shadow: 0px 0px 15px -5px #777777;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.nameAndDeleteButton button:hover{
+    transform: translateY(2px);
+}
